@@ -1,0 +1,23 @@
+#Criar um código para configurar usuários em servidor de empresa fictícia.
+
+- Todo o provisionamento deve ser feito em um arquivo do tipo Bash Script;
+- O dono de todos os diretórios criados será o usuário root; 
+- Todos os usuários terão permissão total dentro do diretório público; 
+- Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório
+- Os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos que eles não pertencem; 
+- Subir arquivo de script criado para a sua conta no Github.
+
+
+
+Diretórios: 
+/publico /adm /ven /sec
+
+Grupos: GRP_ADM GRP_VEN GRP_SEC
+
+Usuários: 
+carlos, maria, joão, debora, sebastiana, roberto, josefina, amanda, rogério
+
+Usuários por grupos: 
+GRP_ADM, membros: carlos, maria, joão
+GRP_VEN, debora, sebastiana, roberto
+GRP_SEC, josefina, amanda, rogerio
